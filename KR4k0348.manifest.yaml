@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR4k0348/v1
+canonical_location: https://kanripo.org/bkk/KR4k0348/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 陸機惠帝起居注一卷
+  identifiers:
+    krp: KR4k0348
+  tags:
+    kr-categories: KR4k
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR4k0348.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR4k0348_001.yaml, hash: 'sha256:6161b5d565ee0d6c650ea401dfaff2143c17b936b1574d3e7bd2a3cf16b74757'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR4k0348_001.markers.yaml, hash: 'sha256:64ab50865ce7b954602a4232ea4ae01431b588094be85ec4f1eae0acb90e9877'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR4k0348_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 282
+  label: 陸機惠帝起居注
+  type: section
+  level: 1
+hash: sha256:c841494e799c7fce3865369d12a6492ef1004bc540988dac3ff33382f8322feb
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
