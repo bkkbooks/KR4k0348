@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR4k0348/v1
 canonical_location: https://kanripo.org/bkk/KR4k0348/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 陸機惠帝起居注一卷
   identifiers:
@@ -17,9 +17,9 @@ metadata:
     short: bkk
 assets:
   parts:
-  - {seq: 1, filename: KR4k0348_001.yaml, hash: 'sha256:f1d38391504c332ff69810b1d1ba2aead1e6445cd089e3a7651b54a562d001cf'}
+  - {seq: 1, filename: KR4k0348_001.yaml, hash: 'sha256:2a7981afaa82ce4922b68b5c9ca1f47c7b220577079e10db61268f040799e064'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR4k0348_001.markers.yaml, hash: 'sha256:504142d935d8fdede5a31a4e5247984d98c2c81bc27b2026b80f0f697702b62b'}
+  - {seq: 1, role: markers, filename: assets/KR4k0348_001.markers.yaml, hash: 'sha256:5b6455f1477d78f11fd4eee16976c17805a9232438694fabc62c46cfc6fb6b61'}
 table_of_contents:
 - ref:
     seq: 1
@@ -31,4 +31,7 @@ table_of_contents:
   label: 陸機惠帝起居注
   type: section
   level: 1
-hash: sha256:d7a520993d54e63ae1122d1df6b3f6d1c32a84046cca9d02db899f151b921f9e
+hash: sha256:30b8d97e4a0fb609af28c87c8cdf7bbba410a548a3efa3f1616d7477c3a326fe
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
